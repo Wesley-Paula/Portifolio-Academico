@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    width: 100%;
+    height: 1080px;
+    position: relative;
+    background: url(../foto1.jpg) no-repeat top;
+    background-position: center;
+    background-size: cover;
+}
+
+#nav {
+    width: 300px;
+    height: 200px;
+    background: #663333;
+    opacity: .9;
+    margin: 20px;
+    padding: 10px 0;
+}
+
+#nav a {
+    display: block;
+    color: #FFFFCC;
+    font: 16px arial;
+    width: 100%;
+    text-align: center;
+    line-height: 30px;
+}
+
+#borda {
+    width: 90%;
+    height: 10px;
+    margin: auto;
+    border-top: 1px solid white;
+}
+
+#ajusta-img1 {
+    text-align: center;
+    margin: 0 10px 0 35px;
+}
+
+#ajusta-img {
+    text-align: center;
+    margin: 0 10px;
+}
+
+/* exercicio 2 */
+#container {
+    width: 1000px;
+    height: 595px;
+    background: #ffcc66;
+    opacity: .8;
+    position: relative;
+    left: 40%;
+}
+
+.paraquedismo {
+    width: 310px;
+    height: 410px;
+    background: #FFFFCC;
+    opacity: .7;
+    float: left;
+    margin: 20px 10px;
+}
+
+.alpinismo {
+    width: 310px;
+    height: 295px;
+    background: #FFFFCC;
+    opacity: .7;
+    float: left;
+    margin: 20px 10px;
+}
+
+.rafting {
+    width: 310px;
+    height: 450px;
+    background: #FFFFCC;
+    opacity: .7;
+    float: left;
+    margin: 20px 10px;
+}
+
+h1 {
+    font: 18px normal arial;
+    color: #333333;
+    margin: 5px;
+}
+
+p {
+    font: normal 14px arial;
+    color: #333333;
+    margin: 0 5px 10px 5px;
+}
