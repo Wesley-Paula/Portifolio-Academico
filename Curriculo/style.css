@@ -1,0 +1,70 @@
+/* este paragrafo da estilo a tudo que esta na tag body*/
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+body {
+	align-content: center;
+	background: white; /* coloca cores no fundo*/
+	font-style: normal arial ;
+	margin: 1%;
+	}
+/* este  paragrafo da estilo ao referente h2, Bordas superiores inferiores centro*/
+
+h2 {
+
+	border-top: 2px solid lightgray;
+	border-bottom: 2px solid lightgray;
+	padding-left: 4px;
+    font-weight: normal;
+    text-align: center;
+    background-color: black;
+    color:#FFFFFF;
+}
+/* este paragrafo da estilo a imagem da foto*/
+
+img{
+	width: 70%;
+	height:10%;
+	margin: 0 15%;
+}
+/* estilo das caixas */
+
+#caixa-esquerda{
+	background-color: rgb(0, 30, 51);
+	display: block;
+	height: 1500px;
+	width: 20%;
+	color: #FFFFFF;
+	float: left;
+}
+#caixa-direita{
+	display:block;
+	width: 77%;
+	float: left;
+	margin:0 10px;
+}
+
+/* media screen */
+@media screen and (max-width:910px) {
+	#caixa-esquerda{
+		background-color: rgb(0, 30, 51);
+		height: auto;
+		width: 100%;
+		color: #FFFFFF;
+		text-align: center;
+		
+	}
+	#caixa-direita{
+		
+		width: 100%;
+		height: auto;
+		margin:auto;
+	}
+
+
+
+
+}
